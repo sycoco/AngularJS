@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body ng-app='myApp' ng-controller='myController'>
+    <div>
+        <input type="number" ng-model='numberlimted'>
+        <p>{{ number| limitTo : numberlimted}}</p>
+        <input type="number" ng-model='curr' >
+        <p>{{curr | currency :"USD$" : 0}}</p>
+    </div>
+    <div ng-init="friends = [{name:'John', phone:'555-1276y'},
+                         {name:'Mary', phone:'800-BIG-MARY'},
+                         {name:'Mike', phone:'555-4321'},
+                         {name:'Adam', phone:'555-5678'},
+                         {name:'Julie', phone:'555-8765'},
+                         {name:'Juliette', phone:'555-5678'}]">
+
+    </div>
+    <input type="text" ng-model='tel.$'>
+    <input type="text" ng-model='tel.name'>
+    <table id='tab'>
+        <tr><th>姓名</th><th>电话</th></tr>
+        <tr ng-repeat='item in friends | filter: tel  track by $index'>
+            <td>{{item.name}}</td>
+            <td>{{item.phone}}</td>
+        </tr>
+    </table>
+
+    <pre id="default-spacing">{{ {'name':'value'} | json }}</pre>
+    <pre>{{ {'name':'xo'} | json:4 }}</pre>
+    <script src='angular.js'></script>
+<script>
+    angular
+        .module('myApp',[])
+        .controller('myController',['$scope',function ($scope) {
+            $scope.number = [1,2,3,4,5,6,7];
+            $scope.curr = 1.23455;
+        }])
+</script>
+</body>
+</html>

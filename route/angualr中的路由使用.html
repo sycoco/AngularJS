@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Document</title>
+</head>
+
+<body ng-app="myApp">
+  <div>
+    <a href="#!/home">首页</a>
+    <a href="#!/about">关于</a>
+    <div ng-view></div>
+  </div>
+
+  <script src="./angular.js"></script>
+  <script src="./angular-route.js"></script>
+  <script>
+    angular
+      .module('myApp', ['ngRoute'])
+      .config(['$routeProvider', function ($routeProvider) {
+        $routeProvider
+          /*
+            /home 表示路由的规则， 对应 URL 中 #! 后面的内容
+            {} 当前路由使用的一些内容（比如：模板）
+          */
+          .when('/home', {
+            templateUrl: './/home.html',
+            // 设置当前路由的控制器，用来给路由的模板内容提供数据
+            controller: 'DemoController'
+          })
+          .when('/about', {
+            template: '<p>这是一个p元素 {{ name }}</p>',
+            controller: 'AboutController'
+          })
+      }])
+      .controller('DemoController', ['$scope', function ($scope) {
+
+        $scope.test = '路由的控制！！！';
+
+        // 使用步骤：
+        // 1 引入 路由模块的 js 文件
+        // 2 创建模块的时候，将 ngRoute 作为依赖项
+        // 3 通过模块中 config() 方法来配置路由
+        // 4 将 $routeProvider 注入到 config 的函数参数中
+        // 5 通过 $routeProvider.when() 配置路由
+        // 6 在页面中指定 ng-view 指令，用来显示路由的内容
+
+      }])
+      .controller('AboutController', ['$scope', function ($scope) {
+
+        $scope.name = '这是关于的内容！！！！';
+      }])
+  </script>
+</body>
+
+</html>

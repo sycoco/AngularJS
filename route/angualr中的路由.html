@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body ng-app='myApp' >
+    <a href="#!/user">user</a>
+    <a href="#!/user/xiaoming">xiaoming</a>
+    <div ng-view></div>
+<script src='angular.js'></script>
+<script src='angular-route.js'></script>
+<script>
+    angular
+        .module('myApp',['ngRoute'])
+        .config(['$routeProvider',function($routeProvider) {
+            $routeProvider
+                .when('/user',{
+                    template:'user的内容',
+//                    controller:'demo'
+                })
+                .when('/user/xiaoming',{
+                    template:'xiaoming{{name}}',
+                    controller:'demo'
+                })
+
+        }])
+        .controller('demo',['$scope',function ($scope) {
+            $scope.name = '国产'
+        }])
+
+</script>
+</body>
+</html>
