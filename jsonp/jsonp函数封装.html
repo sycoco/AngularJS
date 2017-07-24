@@ -18,6 +18,8 @@
         //返回的函数要是全局的所以挂在window对象上
         window[callName] = function (data) {
             callback(data);
+            document.head.removeChild(script);
+            delete window[callName];
         }
         //生成script标签
         var script = document.createElement('script');
