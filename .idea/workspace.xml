@@ -2,8 +2,45 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="3f3c909f-f098-459a-9032-d04956fec459" name="Default" comment="">
-      <change beforePath="$PROJECT_DIR$/1.md" afterPath="$PROJECT_DIR$/angular_baisc.md" />
-      <change beforePath="$PROJECT_DIR$/2.md" afterPath="$PROJECT_DIR$/angular_jqLite.md" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change beforePath="$PROJECT_DIR$/3.md" afterPath="$PROJECT_DIR$/angular_demo.md" />
+      <change beforePath="$PROJECT_DIR$/4.md" afterPath="$PROJECT_DIR$/angular_douban.md" />
+      <change beforePath="$PROJECT_DIR$/TODO" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/moviecatMy/.idea/inspectionProfiles/Project_Default.xml" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/moviecatMy/.idea/modules.xml" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/moviecatMy/.idea/moviecat.iml" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/moviecatMy/.idea/vcs.xml" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/moviecatMy/.idea/workspace.xml" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/moviecatMy/app/app.js" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/moviecatMy/app/assets/css/reset.css" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/moviecatMy/app/assets/css/wap.css" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/moviecatMy/app/assets/img/aizaishenqiu.jpg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/moviecatMy/app/assets/img/diwubo.jpg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/moviecatMy/app/assets/img/home_page.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/moviecatMy/app/assets/img/home_page2.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/moviecatMy/app/assets/img/logo.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/moviecatMy/app/assets/img/renlei.jpg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/moviecatMy/app/assets/img/sc.jpg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/moviecatMy/app/assets/js/prefixfree.min.js" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/moviecatMy/app/coming_soon/controller.js" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/moviecatMy/app/coming_soon/service.js" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/moviecatMy/app/common/moviecat.jsonp.js" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/moviecatMy/app/details/controller.js" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/moviecatMy/app/details/service.js" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/moviecatMy/app/home_page/controller.js" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/moviecatMy/app/home_page/route.js" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/moviecatMy/app/home_page/service.js" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/moviecatMy/app/home_page/view.html" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/moviecatMy/app/index.html" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/moviecatMy/app/movielist/controller.js" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/moviecatMy/app/movielist/data.json" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/moviecatMy/app/movielist/service.js" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/moviecatMy/app/movielist/view.html" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/moviecatMy/app/search/controller.js" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/moviecatMy/app/search/service.js" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/moviecatMy/app/top250/controller.js" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/moviecatMy/app/top250/service.js" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/moviecatMy/package.json" afterPath="" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -22,7 +59,7 @@
           <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
             <state split_layout="SPLIT">
               <first_editor relative-caret-position="-38">
-                <caret line="0" column="11" lean-forward="true" selection-start-line="0" selection-start-column="11" selection-end-line="0" selection-end-column="11" />
+                <caret line="0" column="11" lean-forward="false" selection-start-line="0" selection-start-column="11" selection-end-line="0" selection-end-column="11" />
                 <folding>
                   <marker date="1523515089940" expanded="true" signature="3262:3348" ph="..." />
                   <marker date="1523515089940" expanded="true" signature="4172:4214" ph="//..." />
@@ -39,7 +76,7 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="angular_jqLite.md" pinned="false" current-in-tab="true">
+      <file leaf-file-name="angular_jqLite.md" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/angular_jqLite.md">
           <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
             <state split_layout="SPLIT">
@@ -80,6 +117,75 @@
           </provider>
         </entry>
       </file>
+      <file leaf-file-name="angular_demo.md" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/angular_demo.md">
+          <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+            <state split_layout="SPLIT">
+              <first_editor relative-caret-position="0">
+                <caret line="0" column="11" lean-forward="false" selection-start-line="0" selection-start-column="11" selection-end-line="0" selection-end-column="11" />
+                <folding>
+                  <marker date="1523515427456" expanded="true" signature="919:1195" ph="..." />
+                  <marker date="1523515427456" expanded="true" signature="956:1184" ph="[...]" />
+                  <marker date="1523515427456" expanded="true" signature="1009:1183" ph="{...}" />
+                  <marker date="1523515427456" expanded="true" signature="1033:1176" ph="[...]" />
+                  <marker date="1523515427456" expanded="true" signature="2307:2461" ph="[...]" />
+                  <marker date="1523515427456" expanded="true" signature="2319:2460" ph="{...}" />
+                  <marker date="1523515427456" expanded="true" signature="2325:2458" ph="//..." />
+                  <marker date="1523515427456" expanded="true" signature="2514:2609" ph="[...]" />
+                  <marker date="1523515427456" expanded="true" signature="2575:2608" ph="{...}" />
+                  <marker date="1523515427456" expanded="true" signature="3343:3454" ph="..." />
+                  <marker date="1523515427456" expanded="true" signature="3464:3686" ph="..." />
+                  <marker date="1523515427456" expanded="true" signature="3536:3675" ph="[...]" />
+                  <marker date="1523515427456" expanded="true" signature="3580:3674" ph="{...}" />
+                  <marker date="1523515427456" expanded="true" signature="3621:3666" ph="{&quot;template&quot;: '&lt;p&gt;李四&lt;/p&gt;'...}" />
+                  <marker date="1523515427456" expanded="true" signature="3945:4116" ph="[...]" />
+                  <marker date="1523515427456" expanded="true" signature="3989:4115" ph="{...}" />
+                  <marker date="1523515427456" expanded="true" signature="4026:4111" ph="{&quot;template&quot;: '&lt;p&gt;你好，我是{{name}}&lt;/p&gt;'...}" />
+                  <marker date="1523515427456" expanded="true" signature="4152:4208" ph="[...]" />
+                  <marker date="1523515427456" expanded="true" signature="4180:4207" ph="{...}" />
+                  <marker date="1523515427456" expanded="true" signature="4375:4410" ph="{&quot;redirectTo&quot;: '/stu/'...}" />
+                  <marker date="1523515427456" expanded="true" signature="4585:4816" ph="[...]" />
+                  <marker date="1523515427456" expanded="true" signature="4629:4815" ph="{...}" />
+                  <marker date="1523515427456" expanded="true" signature="4726:4811" ph="{&quot;template&quot;: '&lt;p&gt;你好，我是{{name}}&lt;/p&gt;'...}" />
+                  <marker date="1523515427456" expanded="true" signature="4852:5027" ph="[...]" />
+                  <marker date="1523515427456" expanded="true" signature="4910:5026" ph="{...}" />
+                  <marker date="1523515427456" expanded="true" signature="4916:4988" ph="//..." />
+                  <marker date="1523515427456" expanded="true" signature="5238:5433" ph="[...]" />
+                  <marker date="1523515427456" expanded="true" signature="5318:5432" ph="{...}" />
+                  <marker date="1523515427456" expanded="true" signature="5530:5712" ph="..." />
+                  <marker date="1523515427456" expanded="true" signature="5567:5645" ph="{&quot;templateUrl&quot;: 'view.html'...}" />
+                  <marker date="1523515427456" expanded="true" signature="5648:5703" ph="//..." />
+                </folding>
+              </first_editor>
+              <second_editor />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="angular_douban.md" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/angular_douban.md">
+          <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+            <state split_layout="SPLIT">
+              <first_editor relative-caret-position="0">
+                <caret line="0" column="11" lean-forward="false" selection-start-line="0" selection-start-column="11" selection-end-line="0" selection-end-column="11" />
+                <folding>
+                  <marker date="1523515427459" expanded="true" signature="1354:1533" ph="[...]" />
+                  <marker date="1523515427459" expanded="true" signature="1398:1532" ph="{...}" />
+                  <marker date="1523515427459" expanded="true" signature="1463:1489" ph="{...}" />
+                  <marker date="1523515427459" expanded="true" signature="1502:1528" ph="{...}" />
+                  <marker date="1523515427459" expanded="true" signature="1970:2089" ph="//..." />
+                  <marker date="1523515427459" expanded="true" signature="2142:2347" ph="//..." />
+                  <marker date="1523515427459" expanded="true" signature="2547:2585" ph="{&quot;jsonpCallbackParam&quot;: 'callback'...}" />
+                  <marker date="1523515427459" expanded="true" signature="3250:3322" ph="//..." />
+                  <marker date="1523515427459" expanded="true" signature="3377:3416" ph="[...]" />
+                  <marker date="1523515427459" expanded="true" signature="3389:3415" ph="{...}" />
+                </folding>
+              </first_editor>
+              <second_editor />
+            </state>
+          </provider>
+        </entry>
+      </file>
     </leaf>
   </component>
   <component name="Git.Settings">
@@ -90,6 +196,8 @@
       <list>
         <option value="$PROJECT_DIR$/angular_baisc.md" />
         <option value="$PROJECT_DIR$/2.md" />
+        <option value="$PROJECT_DIR$/3.md" />
+        <option value="$PROJECT_DIR$/4.md" />
       </list>
     </option>
   </component>
@@ -99,7 +207,7 @@
     <detection-done>true</detection-done>
     <sorting>DEFINITION_ORDER</sorting>
   </component>
-  <component name="ProjectFrameBounds">
+  <component name="ProjectFrameBounds" extendedState="1">
     <option name="y" value="23" />
     <option name="width" value="1280" />
     <option name="height" value="727" />
@@ -126,6 +234,11 @@
             <path>
               <item name="AngularJS" type="b2602c69:ProjectViewProjectNode" />
               <item name="AngularJS" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="AngularJS" type="b2602c69:ProjectViewProjectNode" />
+              <item name="AngularJS" type="462c0819:PsiDirectoryNode" />
+              <item name="jsonp" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -164,17 +277,18 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1523514970137</updated>
-      <workItem from="1523514971451" duration="118000" />
+      <workItem from="1523514971451" duration="428000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="118000" />
+    <option name="totallyTimeSpent" value="428000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="0" y="23" width="1280" height="727" extended-state="0" />
+    <frame x="0" y="23" width="1280" height="727" extended-state="1" />
+    <editor active="true" />
     <layout>
-      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.2494043" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.2494043" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Docker" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="false" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="true" content_ui="tabs" />
@@ -208,7 +322,7 @@
       <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
         <state split_layout="SPLIT">
           <first_editor relative-caret-position="-38">
-            <caret line="0" column="11" lean-forward="true" selection-start-line="0" selection-start-column="11" selection-end-line="0" selection-end-column="11" />
+            <caret line="0" column="11" lean-forward="false" selection-start-line="0" selection-start-column="11" selection-end-line="0" selection-end-column="11" />
             <folding>
               <marker date="1523515089940" expanded="true" signature="3262:3348" ph="..." />
               <marker date="1523515089940" expanded="true" signature="4172:4214" ph="//..." />
@@ -257,6 +371,79 @@
               <marker date="1523515089946" expanded="true" signature="4288:4324" ph="{...}" />
               <marker date="1523515089946" expanded="true" signature="4681:4818" ph="..." />
               <marker date="1523515089946" expanded="true" signature="4827:4863" ph="..." />
+            </folding>
+          </first_editor>
+          <second_editor />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/angular_demo.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="SPLIT">
+          <first_editor relative-caret-position="0">
+            <caret line="0" column="11" lean-forward="false" selection-start-line="0" selection-start-column="11" selection-end-line="0" selection-end-column="11" />
+            <folding>
+              <marker date="1523515427456" expanded="true" signature="919:1195" ph="..." />
+              <marker date="1523515427456" expanded="true" signature="956:1184" ph="[...]" />
+              <marker date="1523515427456" expanded="true" signature="1009:1183" ph="{...}" />
+              <marker date="1523515427456" expanded="true" signature="1033:1176" ph="[...]" />
+              <marker date="1523515427456" expanded="true" signature="2307:2461" ph="[...]" />
+              <marker date="1523515427456" expanded="true" signature="2319:2460" ph="{...}" />
+              <marker date="1523515427456" expanded="true" signature="2325:2458" ph="//..." />
+              <marker date="1523515427456" expanded="true" signature="2514:2609" ph="[...]" />
+              <marker date="1523515427456" expanded="true" signature="2575:2608" ph="{...}" />
+              <marker date="1523515427456" expanded="true" signature="3343:3454" ph="..." />
+              <marker date="1523515427456" expanded="true" signature="3464:3686" ph="..." />
+              <marker date="1523515427456" expanded="true" signature="3536:3675" ph="[...]" />
+              <marker date="1523515427456" expanded="true" signature="3580:3674" ph="{...}" />
+              <marker date="1523515427456" expanded="true" signature="3621:3666" ph="{&quot;template&quot;: '&lt;p&gt;李四&lt;/p&gt;'...}" />
+              <marker date="1523515427456" expanded="true" signature="3945:4116" ph="[...]" />
+              <marker date="1523515427456" expanded="true" signature="3989:4115" ph="{...}" />
+              <marker date="1523515427456" expanded="true" signature="4026:4111" ph="{&quot;template&quot;: '&lt;p&gt;你好，我是{{name}}&lt;/p&gt;'...}" />
+              <marker date="1523515427456" expanded="true" signature="4152:4208" ph="[...]" />
+              <marker date="1523515427456" expanded="true" signature="4180:4207" ph="{...}" />
+              <marker date="1523515427456" expanded="true" signature="4375:4410" ph="{&quot;redirectTo&quot;: '/stu/'...}" />
+              <marker date="1523515427456" expanded="true" signature="4585:4816" ph="[...]" />
+              <marker date="1523515427456" expanded="true" signature="4629:4815" ph="{...}" />
+              <marker date="1523515427456" expanded="true" signature="4726:4811" ph="{&quot;template&quot;: '&lt;p&gt;你好，我是{{name}}&lt;/p&gt;'...}" />
+              <marker date="1523515427456" expanded="true" signature="4852:5027" ph="[...]" />
+              <marker date="1523515427456" expanded="true" signature="4910:5026" ph="{...}" />
+              <marker date="1523515427456" expanded="true" signature="4916:4988" ph="//..." />
+              <marker date="1523515427456" expanded="true" signature="5238:5433" ph="[...]" />
+              <marker date="1523515427456" expanded="true" signature="5318:5432" ph="{...}" />
+              <marker date="1523515427456" expanded="true" signature="5530:5712" ph="..." />
+              <marker date="1523515427456" expanded="true" signature="5567:5645" ph="{&quot;templateUrl&quot;: 'view.html'...}" />
+              <marker date="1523515427456" expanded="true" signature="5648:5703" ph="//..." />
+            </folding>
+          </first_editor>
+          <second_editor />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/jsonp/flex.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/angular_douban.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="SPLIT">
+          <first_editor relative-caret-position="0">
+            <caret line="0" column="11" lean-forward="false" selection-start-line="0" selection-start-column="11" selection-end-line="0" selection-end-column="11" />
+            <folding>
+              <marker date="1523515427459" expanded="true" signature="1354:1533" ph="[...]" />
+              <marker date="1523515427459" expanded="true" signature="1398:1532" ph="{...}" />
+              <marker date="1523515427459" expanded="true" signature="1463:1489" ph="{...}" />
+              <marker date="1523515427459" expanded="true" signature="1502:1528" ph="{...}" />
+              <marker date="1523515427459" expanded="true" signature="1970:2089" ph="//..." />
+              <marker date="1523515427459" expanded="true" signature="2142:2347" ph="//..." />
+              <marker date="1523515427459" expanded="true" signature="2547:2585" ph="{&quot;jsonpCallbackParam&quot;: 'callback'...}" />
+              <marker date="1523515427459" expanded="true" signature="3250:3322" ph="//..." />
+              <marker date="1523515427459" expanded="true" signature="3377:3416" ph="[...]" />
+              <marker date="1523515427459" expanded="true" signature="3389:3415" ph="{...}" />
             </folding>
           </first_editor>
           <second_editor />

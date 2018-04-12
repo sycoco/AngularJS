@@ -1,4 +1,4 @@
-# AngularJS day-04
+# AngularJS
 
 ## WebAPI
 - [聚合数据](https://www.juhe.cn/)

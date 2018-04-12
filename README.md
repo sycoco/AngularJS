@@ -1,2 +1,3 @@
 # AngularJS
-## angulerJS的基础知识梳理
+### angularJS basic skills and demo
+### angular + webpack + ES6

@@ -1,4 +1,4 @@
-# AngularJS - day-03
+# AngularJS
 
 ## TodoMVC案例
 - [todomvc官网](http://todomvc.com)
