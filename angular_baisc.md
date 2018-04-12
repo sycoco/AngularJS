@@ -1,4 +1,4 @@
-﻿# AngularJS -day01
+﻿# AngularJS
 
 ## AngularJS概述
 ![Angular图标](./imgs/AngularJS-large.png)

@@ -1,4 +1,4 @@
-﻿# AngularJS -day02
+﻿# AngularJS
 
 ## 在Angular中使用"jQuery"
 - 语法：`angular.element`
