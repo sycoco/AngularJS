@@ -2,26 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="3f3c909f-f098-459a-9032-d04956fec459" name="Default" comment="">
-      <change beforePath="$PROJECT_DIR$/angularJs.xmind" afterPath="$PROJECT_DIR$/angularJS.xmind" />
-      <change beforePath="$PROJECT_DIR$/angular_baisc.md" afterPath="$PROJECT_DIR$/angularBasic/angular_baisc.md" />
-      <change beforePath="$PROJECT_DIR$/angular_demo.md" afterPath="$PROJECT_DIR$/angularBasic/angular_demo.md" />
-      <change beforePath="$PROJECT_DIR$/angular_douban.md" afterPath="$PROJECT_DIR$/angularBasic/angular_douban.md" />
-      <change beforePath="$PROJECT_DIR$/angular_jqLite.md" afterPath="$PROJECT_DIR$/angularBasic/angular_jqLite.md" />
-      <change beforePath="$PROJECT_DIR$/route/.idea/inspectionProfiles/Project_Default.xml" afterPath="$PROJECT_DIR$/ngRoute/.idea/inspectionProfiles/Project_Default.xml" />
-      <change beforePath="$PROJECT_DIR$/route/.idea/modules.xml" afterPath="$PROJECT_DIR$/ngRoute/.idea/modules.xml" />
-      <change beforePath="$PROJECT_DIR$/route/.idea/preferred-vcs.xml" afterPath="$PROJECT_DIR$/ngRoute/.idea/preferred-vcs.xml" />
-      <change beforePath="$PROJECT_DIR$/route/.idea/route.iml" afterPath="$PROJECT_DIR$/ngRoute/.idea/route.iml" />
-      <change beforePath="$PROJECT_DIR$/route/.idea/workspace.xml" afterPath="$PROJECT_DIR$/ngRoute/.idea/workspace.xml" />
-      <change beforePath="$PROJECT_DIR$/route/angualr中的路由.html" afterPath="$PROJECT_DIR$/ngRoute/angualr中的路由.html" />
-      <change beforePath="$PROJECT_DIR$/route/angualr中的路由使用.html" afterPath="$PROJECT_DIR$/ngRoute/angualr中的路由使用.html" />
-      <change beforePath="$PROJECT_DIR$/route/angular-route.js" afterPath="$PROJECT_DIR$/ngRoute/angular-route.js" />
-      <change beforePath="$PROJECT_DIR$/route/angular.js" afterPath="$PROJECT_DIR$/ngRoute/angular.js" />
-      <change beforePath="$PROJECT_DIR$/route/filter.html" afterPath="$PROJECT_DIR$/ngRoute/filter.html" />
-      <change beforePath="$PROJECT_DIR$/todotwice/.idea/inspectionProfiles/Project_Default.xml" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/todotwice/.idea/modules.xml" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/todotwice/.idea/preferred-vcs.xml" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/todotwice/.idea/todotwice.iml" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/todotwice/.idea/workspace.xml" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/README.md" afterPath="$PROJECT_DIR$/README.md" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -143,7 +124,7 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="angular_douban.md" pinned="false" current-in-tab="true">
+      <file leaf-file-name="angular_douban.md" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/angularBasic/angular_douban.md">
           <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
             <state split_layout="SPLIT">
@@ -167,6 +148,19 @@
           </provider>
         </entry>
       </file>
+      <file leaf-file-name="README.md" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/README.md">
+          <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+            <state split_layout="SPLIT">
+              <first_editor relative-caret-position="60">
+                <caret line="4" column="0" lean-forward="true" selection-start-line="4" selection-start-column="0" selection-end-line="4" selection-end-column="0" />
+                <folding />
+              </first_editor>
+              <second_editor />
+            </state>
+          </provider>
+        </entry>
+      </file>
     </leaf>
   </component>
   <component name="Git.Settings">
@@ -179,6 +173,7 @@
         <option value="$PROJECT_DIR$/2.md" />
         <option value="$PROJECT_DIR$/3.md" />
         <option value="$PROJECT_DIR$/4.md" />
+        <option value="$PROJECT_DIR$/README.md" />
       </list>
     </option>
   </component>
@@ -215,6 +210,11 @@
             <path>
               <item name="AngularJS" type="b2602c69:ProjectViewProjectNode" />
               <item name="AngularJS" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="AngularJS" type="b2602c69:ProjectViewProjectNode" />
+              <item name="AngularJS" type="462c0819:PsiDirectoryNode" />
+              <item name="angularBasic" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -258,17 +258,18 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1523514970137</updated>
-      <workItem from="1523514971451" duration="604000" />
+      <workItem from="1523514971451" duration="876000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="604000" />
+    <option name="totallyTimeSpent" value="876000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="23" width="1280" height="727" extended-state="0" />
+    <editor active="true" />
     <layout>
-      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.2494043" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.2494043" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Docker" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="false" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="true" content_ui="tabs" />
@@ -425,6 +426,17 @@
               <marker date="1523515427459" expanded="true" signature="3377:3416" ph="[...]" />
               <marker date="1523515427459" expanded="true" signature="3389:3415" ph="{...}" />
             </folding>
+          </first_editor>
+          <second_editor />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/README.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="SPLIT">
+          <first_editor relative-caret-position="60">
+            <caret line="4" column="0" lean-forward="true" selection-start-line="4" selection-start-column="0" selection-end-line="4" selection-end-column="0" />
+            <folding />
           </first_editor>
           <second_editor />
         </state>
