@@ -4411,12 +4411,12 @@ function annotate(fn, strictDi, name) {
  * names.
  * ```js
  *   // Given
- *   function MyController($scope, $route) {
+ *   function MyController($scope, $ngRoute) {
  *     // ...
  *   }
  *
  *   // Then
- *   expect(injector.annotate(MyController)).toEqual(['$scope', '$route']);
+ *   expect(injector.annotate(MyController)).toEqual(['$scope', '$ngRoute']);
  * ```
  *
  * You can disallow this method by using strict injection mode.
@@ -4434,10 +4434,10 @@ function annotate(fn, strictDi, name) {
  *     // ...
  *   }
  *   // Define function dependencies
- *   MyController['$inject'] = ['$scope', '$route'];
+ *   MyController['$inject'] = ['$scope', '$ngRoute'];
  *
  *   // Then
- *   expect(injector.annotate(MyController)).toEqual(['$scope', '$route']);
+ *   expect(injector.annotate(MyController)).toEqual(['$scope', '$ngRoute']);
  * ```
  *
  * # The array notation

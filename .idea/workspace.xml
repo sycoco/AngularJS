@@ -2,45 +2,26 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="3f3c909f-f098-459a-9032-d04956fec459" name="Default" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change beforePath="$PROJECT_DIR$/3.md" afterPath="$PROJECT_DIR$/angular_demo.md" />
-      <change beforePath="$PROJECT_DIR$/4.md" afterPath="$PROJECT_DIR$/angular_douban.md" />
-      <change beforePath="$PROJECT_DIR$/TODO" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/moviecatMy/.idea/inspectionProfiles/Project_Default.xml" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/moviecatMy/.idea/modules.xml" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/moviecatMy/.idea/moviecat.iml" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/moviecatMy/.idea/vcs.xml" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/moviecatMy/.idea/workspace.xml" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/moviecatMy/app/app.js" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/moviecatMy/app/assets/css/reset.css" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/moviecatMy/app/assets/css/wap.css" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/moviecatMy/app/assets/img/aizaishenqiu.jpg" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/moviecatMy/app/assets/img/diwubo.jpg" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/moviecatMy/app/assets/img/home_page.png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/moviecatMy/app/assets/img/home_page2.png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/moviecatMy/app/assets/img/logo.png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/moviecatMy/app/assets/img/renlei.jpg" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/moviecatMy/app/assets/img/sc.jpg" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/moviecatMy/app/assets/js/prefixfree.min.js" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/moviecatMy/app/coming_soon/controller.js" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/moviecatMy/app/coming_soon/service.js" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/moviecatMy/app/common/moviecat.jsonp.js" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/moviecatMy/app/details/controller.js" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/moviecatMy/app/details/service.js" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/moviecatMy/app/home_page/controller.js" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/moviecatMy/app/home_page/route.js" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/moviecatMy/app/home_page/service.js" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/moviecatMy/app/home_page/view.html" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/moviecatMy/app/index.html" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/moviecatMy/app/movielist/controller.js" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/moviecatMy/app/movielist/data.json" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/moviecatMy/app/movielist/service.js" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/moviecatMy/app/movielist/view.html" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/moviecatMy/app/search/controller.js" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/moviecatMy/app/search/service.js" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/moviecatMy/app/top250/controller.js" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/moviecatMy/app/top250/service.js" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/moviecatMy/package.json" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/angularJs.xmind" afterPath="$PROJECT_DIR$/angularJS.xmind" />
+      <change beforePath="$PROJECT_DIR$/angular_baisc.md" afterPath="$PROJECT_DIR$/angularBasic/angular_baisc.md" />
+      <change beforePath="$PROJECT_DIR$/angular_demo.md" afterPath="$PROJECT_DIR$/angularBasic/angular_demo.md" />
+      <change beforePath="$PROJECT_DIR$/angular_douban.md" afterPath="$PROJECT_DIR$/angularBasic/angular_douban.md" />
+      <change beforePath="$PROJECT_DIR$/angular_jqLite.md" afterPath="$PROJECT_DIR$/angularBasic/angular_jqLite.md" />
+      <change beforePath="$PROJECT_DIR$/route/.idea/inspectionProfiles/Project_Default.xml" afterPath="$PROJECT_DIR$/ngRoute/.idea/inspectionProfiles/Project_Default.xml" />
+      <change beforePath="$PROJECT_DIR$/route/.idea/modules.xml" afterPath="$PROJECT_DIR$/ngRoute/.idea/modules.xml" />
+      <change beforePath="$PROJECT_DIR$/route/.idea/preferred-vcs.xml" afterPath="$PROJECT_DIR$/ngRoute/.idea/preferred-vcs.xml" />
+      <change beforePath="$PROJECT_DIR$/route/.idea/route.iml" afterPath="$PROJECT_DIR$/ngRoute/.idea/route.iml" />
+      <change beforePath="$PROJECT_DIR$/route/.idea/workspace.xml" afterPath="$PROJECT_DIR$/ngRoute/.idea/workspace.xml" />
+      <change beforePath="$PROJECT_DIR$/route/angualr中的路由.html" afterPath="$PROJECT_DIR$/ngRoute/angualr中的路由.html" />
+      <change beforePath="$PROJECT_DIR$/route/angualr中的路由使用.html" afterPath="$PROJECT_DIR$/ngRoute/angualr中的路由使用.html" />
+      <change beforePath="$PROJECT_DIR$/route/angular-route.js" afterPath="$PROJECT_DIR$/ngRoute/angular-route.js" />
+      <change beforePath="$PROJECT_DIR$/route/angular.js" afterPath="$PROJECT_DIR$/ngRoute/angular.js" />
+      <change beforePath="$PROJECT_DIR$/route/filter.html" afterPath="$PROJECT_DIR$/ngRoute/filter.html" />
+      <change beforePath="$PROJECT_DIR$/todotwice/.idea/inspectionProfiles/Project_Default.xml" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/todotwice/.idea/modules.xml" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/todotwice/.idea/preferred-vcs.xml" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/todotwice/.idea/todotwice.iml" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/todotwice/.idea/workspace.xml" afterPath="" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -55,7 +36,7 @@
   <component name="FileEditorManager">
     <leaf>
       <file leaf-file-name="angular_baisc.md" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/angular_baisc.md">
+        <entry file="file://$PROJECT_DIR$/angularBasic/angular_baisc.md">
           <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
             <state split_layout="SPLIT">
               <first_editor relative-caret-position="-38">
@@ -77,7 +58,7 @@
         </entry>
       </file>
       <file leaf-file-name="angular_jqLite.md" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/angular_jqLite.md">
+        <entry file="file://$PROJECT_DIR$/angularBasic/angular_jqLite.md">
           <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
             <state split_layout="SPLIT">
               <first_editor relative-caret-position="60">
@@ -118,7 +99,7 @@
         </entry>
       </file>
       <file leaf-file-name="angular_demo.md" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/angular_demo.md">
+        <entry file="file://$PROJECT_DIR$/angularBasic/angular_demo.md">
           <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
             <state split_layout="SPLIT">
               <first_editor relative-caret-position="0">
@@ -163,7 +144,7 @@
         </entry>
       </file>
       <file leaf-file-name="angular_douban.md" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/angular_douban.md">
+        <entry file="file://$PROJECT_DIR$/angularBasic/angular_douban.md">
           <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
             <state split_layout="SPLIT">
               <first_editor relative-caret-position="0">
@@ -207,7 +188,7 @@
     <detection-done>true</detection-done>
     <sorting>DEFINITION_ORDER</sorting>
   </component>
-  <component name="ProjectFrameBounds" extendedState="1">
+  <component name="ProjectFrameBounds">
     <option name="y" value="23" />
     <option name="width" value="1280" />
     <option name="height" value="727" />
@@ -235,11 +216,6 @@
               <item name="AngularJS" type="b2602c69:ProjectViewProjectNode" />
               <item name="AngularJS" type="462c0819:PsiDirectoryNode" />
             </path>
-            <path>
-              <item name="AngularJS" type="b2602c69:ProjectViewProjectNode" />
-              <item name="AngularJS" type="462c0819:PsiDirectoryNode" />
-              <item name="jsonp" type="462c0819:PsiDirectoryNode" />
-            </path>
           </expand>
           <select />
         </subPane>
@@ -251,6 +227,11 @@
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="/usr/local/bin/node" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="HbShouldOpenHtmlAsHb" value="" />
+  </component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/angularBasic" />
+    </key>
   </component>
   <component name="RunDashboard">
     <option name="ruleStates">
@@ -277,21 +258,21 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1523514970137</updated>
-      <workItem from="1523514971451" duration="428000" />
+      <workItem from="1523514971451" duration="604000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="428000" />
+    <option name="totallyTimeSpent" value="604000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="0" y="23" width="1280" height="727" extended-state="1" />
-    <editor active="true" />
+    <frame x="0" y="23" width="1280" height="727" extended-state="0" />
     <layout>
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.2494043" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.2494043" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Docker" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="false" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="true" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32911393" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
@@ -302,7 +283,6 @@
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
     </layout>
@@ -318,7 +298,7 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/angular_baisc.md">
+    <entry file="file://$PROJECT_DIR$/angularBasic/angular_baisc.md">
       <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
         <state split_layout="SPLIT">
           <first_editor relative-caret-position="-38">
@@ -338,7 +318,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/angular_jqLite.md">
+    <entry file="file://$PROJECT_DIR$/angularBasic/angular_jqLite.md">
       <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
         <state split_layout="SPLIT">
           <first_editor relative-caret-position="60">
@@ -377,7 +357,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/angular_demo.md">
+    <entry file="file://$PROJECT_DIR$/angularBasic/angular_demo.md">
       <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
         <state split_layout="SPLIT">
           <first_editor relative-caret-position="0">
@@ -428,7 +408,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/angular_douban.md">
+    <entry file="file://$PROJECT_DIR$/angularBasic/angular_douban.md">
       <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
         <state split_layout="SPLIT">
           <first_editor relative-caret-position="0">

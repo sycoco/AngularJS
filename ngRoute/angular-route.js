@@ -51,7 +51,7 @@ var noop;
  * The `ngRoute` module provides routing and deeplinking services and directives for angular apps.
  *
  * ## Example
- * See {@link ngRoute.$route#example $route} for an example of configuring and using `ngRoute`.
+ * See {@link ngRoute.$ngRoute#example $ngRoute} for an example of configuring and using `ngRoute`.
  *
  *
  * <div doc-module-components="ngRoute"></div>
@@ -61,7 +61,7 @@ var ngRouteModule = angular.
   module('ngRoute', []).
   info({ angularVersion: '1.6.5' }).
   provider('$route', $RouteProvider).
-  // Ensure `$route` will be instantiated in time to capture the initial `$locationChangeSuccess`
+  // Ensure `$ngRoute` will be instantiated in time to capture the initial `$locationChangeSuccess`
   // event (unless explicitly disabled). This is necessary in case `ngView` is included in an
   // asynchronously loaded template.
   run(instantiateRoute);
@@ -79,7 +79,7 @@ var isEagerInstantiationEnabled;
  * Used for configuring routes.
  *
  * ## Example
- * See {@link ngRoute.$route#example $route} for an example of configuring and using `ngRoute`.
+ * See {@link ngRoute.$ngRoute#example $ngRoute} for an example of configuring and using `ngRoute`.
  *
  * ## Dependencies
  * Requires the {@link ngRoute `ngRoute`} module to be installed.
@@ -101,16 +101,16 @@ function $RouteProvider() {
    * @name $routeProvider#when
    *
    * @param {string} path Route path (matched against `$location.path`). If `$location.path`
-   *    contains redundant trailing slash or is missing one, the route will still match and the
+   *    contains redundant trailing slash or is missing one, the ngRoute will still match and the
    *    `$location.path` will be updated to add or drop the trailing slash to exactly match the
-   *    route definition.
+   *    ngRoute definition.
    *
    *    * `path` can contain named groups starting with a colon: e.g. `:name`. All characters up
    *        to the next slash are matched and stored in `$routeParams` under the given `name`
-   *        when the route matches.
+   *        when the ngRoute matches.
    *    * `path` can contain named groups starting with a colon and ending with a star:
    *        e.g.`:name*`. All characters are eagerly stored in `$routeParams` under the given `name`
-   *        when the route matches.
+   *        when the ngRoute matches.
    *    * `path` can contain optional named groups with a question mark: e.g.`:name?`.
    *
    *    For example, routes like `/color/:color/largecode/:largecode*\/edit` will match
@@ -120,7 +120,7 @@ function $RouteProvider() {
    *    * `largecode: code/with/slashes`.
    *
    *
-   * @param {Object} route Mapping information to be assigned to `$route.current` on route
+   * @param {Object} route Mapping information to be assigned to `$ngRoute.current` on ngRoute
    *    match.
    *
    *    Object properties:
@@ -137,8 +137,8 @@ function $RouteProvider() {
    *
    *      If `template` is a function, it will be called with the following parameters:
    *
-   *      - `{Array.<Object>}` - route parameters extracted from the current
-   *        `$location.path()` by applying the current route
+   *      - `{Array.<Object>}` - ngRoute parameters extracted from the current
+   *        `$location.path()` by applying the current ngRoute
    *
    *      One of `template` or `templateUrl` is required.
    *
@@ -147,8 +147,8 @@ function $RouteProvider() {
    *
    *      If `templateUrl` is a function, it will be called with the following parameters:
    *
-   *      - `{Array.<Object>}` - route parameters extracted from the current
-   *        `$location.path()` by applying the current route
+   *      - `{Array.<Object>}` - ngRoute parameters extracted from the current
+   *        `$location.path()` by applying the current ngRoute
    *
    *      One of `templateUrl` or `template` is required.
    *
@@ -157,13 +157,13 @@ function $RouteProvider() {
    *      will wait for them all to be resolved or one to be rejected before the controller is
    *      instantiated.
    *      If all the promises are resolved successfully, the values of the resolved promises are
-   *      injected and {@link ngRoute.$route#$routeChangeSuccess $routeChangeSuccess} event is
+   *      injected and {@link ngRoute.$ngRoute#$routeChangeSuccess $routeChangeSuccess} event is
    *      fired. If any of the promises are rejected the
-   *      {@link ngRoute.$route#$routeChangeError $routeChangeError} event is fired.
+   *      {@link ngRoute.$ngRoute#$routeChangeError $routeChangeError} event is fired.
    *      For easier access to the resolved dependencies from the template, the `resolve` map will
-   *      be available on the scope of the route, under `$resolve` (by default) or a custom name
+   *      be available on the scope of the ngRoute, under `$resolve` (by default) or a custom name
    *      specified by the `resolveAs` property (see below). This can be particularly useful, when
-   *      working with {@link angular.Module#component components} as route templates.<br />
+   *      working with {@link angular.Module#component components} as ngRoute templates.<br />
    *      <div class="alert alert-warning">
    *        **Note:** If your scope already contains a property with this name, it will be hidden
    *        or overwritten. Make sure, you specify an appropriate name for this property, that
@@ -176,50 +176,50 @@ function $RouteProvider() {
    *        Otherwise if function, then it is {@link auto.$injector#invoke injected}
    *        and the return value is treated as the dependency. If the result is a promise, it is
    *        resolved before its value is injected into the controller. Be aware that
-   *        `ngRoute.$routeParams` will still refer to the previous route within these resolve
-   *        functions.  Use `$route.current.params` to access the new route parameters, instead.
+   *        `ngRoute.$routeParams` will still refer to the previous ngRoute within these resolve
+   *        functions.  Use `$ngRoute.current.params` to access the new ngRoute parameters, instead.
    *
    *    - `resolveAs` - `{string=}` - The name under which the `resolve` map will be available on
-   *      the scope of the route. If omitted, defaults to `$resolve`.
+   *      the scope of the ngRoute. If omitted, defaults to `$resolve`.
    *
    *    - `redirectTo` – `{(string|Function)=}` – value to update
-   *      {@link ng.$location $location} path with and trigger route redirection.
+   *      {@link ng.$location $location} path with and trigger ngRoute redirection.
    *
    *      If `redirectTo` is a function, it will be called with the following parameters:
    *
-   *      - `{Object.<string>}` - route parameters extracted from the current
-   *        `$location.path()` by applying the current route templateUrl.
+   *      - `{Object.<string>}` - ngRoute parameters extracted from the current
+   *        `$location.path()` by applying the current ngRoute templateUrl.
    *      - `{string}` - current `$location.path()`
    *      - `{Object}` - current `$location.search()`
    *
    *      The custom `redirectTo` function is expected to return a string which will be used
    *      to update `$location.url()`. If the function throws an error, no further processing will
-   *      take place and the {@link ngRoute.$route#$routeChangeError $routeChangeError} event will
+   *      take place and the {@link ngRoute.$ngRoute#$routeChangeError $routeChangeError} event will
    *      be fired.
    *
    *      Routes that specify `redirectTo` will not have their controllers, template functions
-   *      or resolves called, the `$location` will be changed to the redirect url and route
+   *      or resolves called, the `$location` will be changed to the redirect url and ngRoute
    *      processing will stop. The exception to this is if the `redirectTo` is a function that
-   *      returns `undefined`. In this case the route transition occurs as though there was no
+   *      returns `undefined`. In this case the ngRoute transition occurs as though there was no
    *      redirection.
    *
    *    - `resolveRedirectTo` – `{Function=}` – a function that will (eventually) return the value
-   *      to update {@link ng.$location $location} URL with and trigger route redirection. In
+   *      to update {@link ng.$location $location} URL with and trigger ngRoute redirection. In
    *      contrast to `redirectTo`, dependencies can be injected into `resolveRedirectTo` and the
    *      return value can be either a string or a promise that will be resolved to a string.
    *
    *      Similar to `redirectTo`, if the return value is `undefined` (or a promise that gets
-   *      resolved to `undefined`), no redirection takes place and the route transition occurs as
+   *      resolved to `undefined`), no redirection takes place and the ngRoute transition occurs as
    *      though there was no redirection.
    *
    *      If the function throws an error or the returned promise gets rejected, no further
    *      processing will take place and the
-   *      {@link ngRoute.$route#$routeChangeError $routeChangeError} event will be fired.
+   *      {@link ngRoute.$ngRoute#$routeChangeError $routeChangeError} event will be fired.
    *
    *      `redirectTo` takes precedence over `resolveRedirectTo`, so specifying both on the same
-   *      route definition, will cause the latter to be ignored.
+   *      ngRoute definition, will cause the latter to be ignored.
    *
-   *    - `[reloadOnSearch=true]` - `{boolean=}` - reload route when only `$location.search()`
+   *    - `[reloadOnSearch=true]` - `{boolean=}` - reload ngRoute when only `$location.search()`
    *      or `$location.hash()` changes.
    *
    *      If the option is set to `false` and url in the browser changes, then
@@ -227,16 +227,16 @@ function $RouteProvider() {
    *
    *    - `[caseInsensitiveMatch=false]` - `{boolean=}` - match routes without being case sensitive
    *
-   *      If the option is set to `true`, then the particular route can be matched without being
+   *      If the option is set to `true`, then the particular ngRoute can be matched without being
    *      case sensitive
    *
    * @returns {Object} self
    *
    * @description
-   * Adds a new route definition to the `$route` service.
+   * Adds a new ngRoute definition to the `$ngRoute` service.
    */
   this.when = function(path, route) {
-    //copy original route object to preserve params inherited from proto chain
+    //copy original ngRoute object to preserve params inherited from proto chain
     var routeCopy = shallowCopy(route);
     if (angular.isUndefined(routeCopy.reloadOnSearch)) {
       routeCopy.reloadOnSearch = true;
@@ -321,10 +321,10 @@ function $RouteProvider() {
    * @name $routeProvider#otherwise
    *
    * @description
-   * Sets route definition that will be used on route change when no other route definition
+   * Sets ngRoute definition that will be used on ngRoute change when no other ngRoute definition
    * is matched.
    *
-   * @param {Object|string} params Mapping information to be assigned to `$route.current`.
+   * @param {Object|string} params Mapping information to be assigned to `$ngRoute.current`.
    * If called with a string, the value maps to `redirectTo`.
    * @returns {Object} self
    */
@@ -343,24 +343,24 @@ function $RouteProvider() {
    *
    * @description
    * Call this method as a setter to enable/disable eager instantiation of the
-   * {@link ngRoute.$route $route} service upon application bootstrap. You can also call it as a
+   * {@link ngRoute.$ngRoute $ngRoute} service upon application bootstrap. You can also call it as a
    * getter (i.e. without any arguments) to get the current value of the
    * `eagerInstantiationEnabled` flag.
    *
-   * Instantiating `$route` early is necessary for capturing the initial
+   * Instantiating `$ngRoute` early is necessary for capturing the initial
    * {@link ng.$location#$locationChangeStart $locationChangeStart} event and navigating to the
-   * appropriate route. Usually, `$route` is instantiated in time by the
+   * appropriate ngRoute. Usually, `$ngRoute` is instantiated in time by the
    * {@link ngRoute.ngView ngView} directive. Yet, in cases where `ngView` is included in an
    * asynchronously loaded template (e.g. in another directive's template), the directive factory
-   * might not be called soon enough for `$route` to be instantiated _before_ the initial
-   * `$locationChangeSuccess` event is fired. Eager instantiation ensures that `$route` is always
+   * might not be called soon enough for `$ngRoute` to be instantiated _before_ the initial
+   * `$locationChangeSuccess` event is fired. Eager instantiation ensures that `$ngRoute` is always
    * instantiated in time, regardless of when `ngView` will be loaded.
    *
    * The default value is true.
    *
    * **Note**:<br />
    * You may want to disable the default behavior when unit-testing modules that depend on
-   * `ngRoute`, in order to avoid an unexpected request for the default route's template.
+   * `ngRoute`, in order to avoid an unexpected request for the default ngRoute's template.
    *
    * @param {boolean=} enabled - If provided, update the internal `eagerInstantiationEnabled` flag.
    *
@@ -528,19 +528,19 @@ function $RouteProvider() {
      * @name $route#$routeChangeStart
      * @eventType broadcast on root scope
      * @description
-     * Broadcasted before a route change. At this  point the route services starts
-     * resolving all of the dependencies needed for the route change to occur.
+     * Broadcasted before a ngRoute change. At this  point the ngRoute services starts
+     * resolving all of the dependencies needed for the ngRoute change to occur.
      * Typically this involves fetching the view template as well as any dependencies
-     * defined in `resolve` route property. Once  all of the dependencies are resolved
+     * defined in `resolve` ngRoute property. Once  all of the dependencies are resolved
      * `$routeChangeSuccess` is fired.
      *
-     * The route change (and the `$location` change that triggered it) can be prevented
+     * The ngRoute change (and the `$location` change that triggered it) can be prevented
      * by calling `preventDefault` method of the event. See {@link ng.$rootScope.Scope#$on}
      * for more details about event object.
      *
      * @param {Object} angularEvent Synthetic event object.
-     * @param {Route} next Future route information.
-     * @param {Route} current Current route information.
+     * @param {Route} next Future ngRoute information.
+     * @param {Route} current Current ngRoute information.
      */
 
     /**
@@ -548,16 +548,16 @@ function $RouteProvider() {
      * @name $route#$routeChangeSuccess
      * @eventType broadcast on root scope
      * @description
-     * Broadcasted after a route change has happened successfully.
+     * Broadcasted after a ngRoute change has happened successfully.
      * The `resolve` dependencies are now available in the `current.locals` property.
      *
      * {@link ngRoute.directive:ngView ngView} listens for the directive
      * to instantiate the controller and render the view.
      *
      * @param {Object} angularEvent Synthetic event object.
-     * @param {Route} current Current route information.
-     * @param {Route|Undefined} previous Previous route information, or undefined if current is
-     * first route entered.
+     * @param {Route} current Current ngRoute information.
+     * @param {Route|Undefined} previous Previous ngRoute information, or undefined if current is
+     * first ngRoute entered.
      */
 
     /**
@@ -569,8 +569,8 @@ function $RouteProvider() {
      * rejected.
      *
      * @param {Object} angularEvent Synthetic event object
-     * @param {Route} current Current route information.
-     * @param {Route} previous Previous route information.
+     * @param {Route} current Current ngRoute information.
+     * @param {Route} previous Previous ngRoute information.
      * @param {Route} rejection The thrown error or the rejection reason of the promise. Usually
      * the rejection reason is the error that caused the promise to get rejected.
      */
@@ -584,7 +584,7 @@ function $RouteProvider() {
      * instance of the Controller.
      *
      * @param {Object} angularEvent Synthetic event object
-     * @param {Route} current Current/previous route information.
+     * @param {Route} current Current/previous ngRoute information.
      */
 
     var forceReload = false,
@@ -598,7 +598,7 @@ function $RouteProvider() {
            * @name $route#reload
            *
            * @description
-           * Causes `$route` service to reload the current route even if
+           * Causes `$ngRoute` service to reload the current ngRoute even if
            * {@link ng.$location $location} hasn't changed.
            *
            * As a result of that, {@link ngRoute.directive:ngView ngView}
@@ -626,9 +626,9 @@ function $RouteProvider() {
            * @name $route#updateParams
            *
            * @description
-           * Causes `$route` service to update the current URL, replacing
-           * current route parameters with those specified in `newParams`.
-           * Provided property names that match the route's path segment
+           * Causes `$ngRoute` service to update the current URL, replacing
+           * current ngRoute parameters with those specified in `newParams`.
+           * Provided property names that match the ngRoute's path segment
            * definitions will be interpolated into the location's path, while
            * remaining properties will be treated as query params.
            *
@@ -641,7 +641,7 @@ function $RouteProvider() {
               // interpolate modifies newParams, only query params are left
               $location.search(newParams);
             } else {
-              throw $routeMinErr('norout', 'Tried updating route when with no current route');
+              throw $routeMinErr('norout', 'Tried updating ngRoute when with no current ngRoute');
             }
           }
         };
@@ -655,11 +655,11 @@ function $RouteProvider() {
 
     /**
      * @param on {string} current url
-     * @param route {Object} route regexp to match the url against
+     * @param route {Object} ngRoute regexp to match the url against
      * @return {?Object}
      *
      * @description
-     * Check if the route matches the current url.
+     * Check if the ngRoute matches the current url.
      *
      * Inspired by match in
      * visionmedia/express/lib/router/router.js.
@@ -725,7 +725,7 @@ function $RouteProvider() {
             return keepProcessingRoute && nextRoutePromise.
               then(resolveLocals).
               then(function(locals) {
-                // after route change
+                // after ngRoute change
                 if (nextRoute === $route.current) {
                   if (nextRoute) {
                     nextRoute.locals = locals;
@@ -742,7 +742,7 @@ function $RouteProvider() {
             // Because `commitRoute()` is called from a `$rootScope.$evalAsync` block (see
             // `$locationWatch`), this `$$completeOutstandingRequest()` call will not cause
             // `outstandingRequestCount` to hit zero.  This is important in case we are redirecting
-            // to a new route which also requires some asynchronous work.
+            // to a new ngRoute which also requires some asynchronous work.
 
             $browser.$$completeOutstandingRequest(noop);
           });
@@ -854,10 +854,10 @@ function $RouteProvider() {
     }
 
     /**
-     * @returns {Object} the current active route, by matching it against the URL
+     * @returns {Object} the current active ngRoute, by matching it against the URL
      */
     function parseRoute() {
-      // Match a route
+      // Match a ngRoute
       var params, match;
       angular.forEach(routes, function(route, path) {
         if (!match && (params = switchRouteMatcher($location.path(), route))) {
@@ -867,7 +867,7 @@ function $RouteProvider() {
           match.$$route = route;
         }
       });
-      // No route matched; fallback to "otherwise" route
+      // No ngRoute matched; fallback to "otherwise" ngRoute
       return match || routes[null] && inherit(routes[null], {params: {}, pathParams:{}});
     }
 
@@ -895,7 +895,7 @@ function $RouteProvider() {
 instantiateRoute.$inject = ['$injector'];
 function instantiateRoute($injector) {
   if (isEagerInstantiationEnabled) {
-    // Instantiate `$route`
+    // Instantiate `$ngRoute`
     $injector.get('$route');
   }
 }
@@ -910,22 +910,22 @@ ngRouteModule.provider('$routeParams', $RouteParamsProvider);
  * @this
  *
  * @description
- * The `$routeParams` service allows you to retrieve the current set of route parameters.
+ * The `$routeParams` service allows you to retrieve the current set of ngRoute parameters.
  *
  * Requires the {@link ngRoute `ngRoute`} module to be installed.
  *
- * The route parameters are a combination of {@link ng.$location `$location`}'s
+ * The ngRoute parameters are a combination of {@link ng.$location `$location`}'s
  * {@link ng.$location#search `search()`} and {@link ng.$location#path `path()`}.
- * The `path` parameters are extracted when the {@link ngRoute.$route `$route`} path is matched.
+ * The `path` parameters are extracted when the {@link ngRoute.$ngRoute `$ngRoute`} path is matched.
  *
  * In case of parameter name collision, `path` params take precedence over `search` params.
  *
  * The service guarantees that the identity of the `$routeParams` object will remain unchanged
- * (but its properties will likely change) even when a route change occurs.
+ * (but its properties will likely change) even when a ngRoute change occurs.
  *
- * Note that the `$routeParams` are only updated *after* a route change completes successfully.
- * This means that you cannot rely on `$routeParams` being correct in route resolve functions.
- * Instead you can use `$route.current.params` to access the new route's parameters.
+ * Note that the `$routeParams` are only updated *after* a ngRoute change completes successfully.
+ * This means that you cannot rely on `$routeParams` being correct in ngRoute resolve functions.
+ * Instead you can use `$ngRoute.current.params` to access the new ngRoute's parameters.
  *
  * @example
  * ```js
